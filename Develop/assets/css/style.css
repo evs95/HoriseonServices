@@ -1,13 +1,16 @@
+/* Universal Selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Styling with Body element selector with background color */
 body {
     background-color: #d9dcd6;
 }
 
+/* Header styling with padding, font name, font color and background color*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Styling for h1 element in header tag */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Styling for seo class in h1 element in header tag */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Styling for div element in header tag  with padding, margin, font*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* Styling for ul element in div element in header tag */
 .header div ul {
     list-style-type: none;
 }
 
+/* Styling for li element of ul in div element in header tag */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Styling for anchor tag */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Styling for paragraph tag */
 p {
     font-size: 16px;
 }
 
+/* Styling for hero class with background image, size and position */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,47 @@ p {
     background-position: center;
 }
 
+/* Styling for float-left class */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Styling for float-right class */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Styling for content class */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Styling for div element of content class with padding, font and background*/
+.content div {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Styling for img element in div element of content class with height constrain */
+.content div img {
+    max-height: 200px;
+}
+
+/* Styling for h2 element in div element of content class */
+.content div h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Styling for benefits class with font, width, height and background color*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,108 +122,26 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Styling for div element in benefits class */
+.benefits div {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* Styling for h3 element in div element in benefits class */
+.benefits div h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* Styling for img element inside div in benefits class with block display and width constrain */
+.benefits div img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Styling for footer with padding font and alignment */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +149,7 @@ p {
     text-align: center;
 }
 
+/* Styling for h2 in footer */
 .footer h2 {
     font-size: 20px;
 }
